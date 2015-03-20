@@ -1,7 +1,9 @@
 ## leetcode
+
 LeetCode oj
+
 LeetCode在线测试
 
-* Language语言：c++
-* Compile编译: c++11
-* Platform平台: ubuntu
+Language（语言）：c++
+Compile（编译）: c++11
+Platform（平台）: ubuntu
