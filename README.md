@@ -1,6 +1,7 @@
 ## leetcode
-LeetCode在线ACM题目
+LeetCode oj
+LeetCode在线测试
 
-* 语言：c++
-* 编译: c++11
-* 平台: ubuntu
+* Language语言：c++
+* Compile编译: c++11
+* Platform平台: ubuntu
