@@ -5,7 +5,7 @@ Example1: x = 123, return 321
 Example2: x = -123, return -321
 
 对整数求余数，倒序排列即可，注意整数限制，正负号。
-/*
+*/
 
 #include <iostream>
 #include <cstdlib>
