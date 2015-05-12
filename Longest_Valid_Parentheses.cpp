@@ -55,12 +55,12 @@ public:
             if (s[i-1] == '(') {
                 cnt++;
             } else {
-                if (cnt > 0) {  // there exists an unclosed "(" to match ")"
+                if (cnt > 0) {
                     cnt--;
                     dp[i] = 2;
-                    if (s[i-2] == ')')  // add the length of previous closed ")" neighbor
+                    if (s[i-2] == ')')
                         dp[i] += dp[i-1];                        
-                    dp[i] += dp[i-dp[i]]; // add the length of previous valid parentheses
+                    dp[i] += dp[i-dp[i]];
                 }
             }
         }
