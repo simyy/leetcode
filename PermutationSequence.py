@@ -11,6 +11,22 @@ We get the following sequence (ie, for n = 3):
 "312"
 "321"
 Given n and k, return the kth permutation sequence.
+
+Analysis:
+
+N premutation = N! = N * (N-1) * (N-2) * ... * 1
+
+Example, Given n and k, the kth permution sequence is a1 a2 a3 ... an,
+
+let K1 = K
+then a1 = K1 / (n-1)!
+
+let K2 = K1 % (n-1)!
+then a2 = K2 / (n-2)!
+ .......
+a(n-1) = K(n-1) / 1!
+K(n-1) = K(n-2) /2!
+an = K(n-1)
 """
 def getPermutation(self, n, k):
     array = range(1, n + 1)
