@@ -89,3 +89,56 @@ int main(int argc, char** argv)
 
     return 0;
 }
+
+/*
+
+#!/usr/bin/env python
+
+def three_sum(input_list):
+    result = list()
+
+    if len(input_list) < 3:
+        return result
+
+    sorted_list = sorted(input_list)
+
+    i = 0
+    while i < len(sorted_list):
+        if sorted_list[i] > 0:
+            break
+
+        if sorted_list[i] == sorted_list[i+1]:
+            i += 1
+            continue
+
+        left = i
+        right = len(sorted_list) - 1
+
+        while left < right:
+            _sum = sorted_list[i] + sorted_list[left] + sorted_list[right]
+            if _sum > 0:
+                right -= 1
+            elif _sum < 0:
+                left += 1
+            else:
+                result.append((
+                    sorted_list[i],
+                    sorted_list[left],
+                    sorted_list[right]))
+                while sorted_list[left] == sorted_list[left+1] \
+                        and left < right:
+                    left += 1
+                while sorted_list[right] == sorted_list[right-1] \
+                        and left < right:
+                    right -= 1
+                left += 1
+                right -= 1
+        i += 1
+
+    return result
+
+
+print three_sum([-1, 0, 1, 2, -1, 4])
+
+
+*/
