@@ -41,7 +41,10 @@ Output: -2147483648
 Explanation: The number "-91283472332" is out of the range of a 32-bit signed integer.
              Thefore INT_MIN (−231) is returned.
              
-             ---
+Analasis:
+
+loop for char to int, the import thing is rule of above examples!!!
+
 """           
              
 
