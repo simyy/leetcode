@@ -1,0 +1,22 @@
+"""
+This can be use binarySearch method, 
+
+Below method is the simple search method, time complex is O(m*n)
+"""
+
+class Solution(object):
+    def searchMatrix(self, matrix, target):
+        """
+        :type matrix: List[List[int]]
+        :type target: int
+        :rtype: bool
+        """
+        row = len(matrix) - 1
+        for i in range(len(matrix)):
+            if matrix[i][0] > target:
+                row = i - 1
+                break
+        for item in matrix[row]:
+            if item == target:
+                return True
+        return False
