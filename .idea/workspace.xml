@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3db8bf0-282f-495b-829f-6edc49c60558" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/3sum-closest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3sum-closest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3sum-closest.py" beforeDir="false" afterPath="$PROJECT_DIR$/3sum-closest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/3sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/add-two-numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdditiveNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/additive-number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/string-to-integer-atoi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/add-binary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canFinish.py" beforeDir="false" afterPath="$PROJECT_DIR$/course-schedule.py" afterDir="false" />
-    </list>
+    <list default="true" id="a3db8bf0-282f-495b-829f-6edc49c60558" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-schedule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
+            <state relative-caret-position="180">
               <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -211,23 +210,23 @@
       <workItem from="1576824205346" duration="4000" />
       <workItem from="1576824240424" duration="77000" />
       <workItem from="1576824320314" duration="11242000" />
-      <workItem from="1576851035773" duration="1470000" />
+      <workItem from="1576851035773" duration="1680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12793000" />
+    <option name="totallyTimeSpent" value="13003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="974" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -236,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -364,8 +363,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course-schedule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
+        <state relative-caret-position="180">
           <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
