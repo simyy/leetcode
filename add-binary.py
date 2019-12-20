@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 https://leetcode.com/problems/add-binary/
 
@@ -9,7 +11,7 @@ b = "1"
 Return "100".
 
 Analysis:
-To solution it, must to implement a binaryToInt and intToBInary function, then use add function to calcuate.
+To solution it, must to implement a binaryToInt and intToBInary function, then use add function to calculate.
 """
 
 class Solution(object):
@@ -19,6 +21,7 @@ class Solution(object):
         :type b: str
         :rtype: str
         """
+        # binaryToInt
         def b2i(b):
             if len(b) == 0:
                 return 0
@@ -27,6 +30,8 @@ class Solution(object):
                 sum = (sum + int(b[i])) * 2
             sum += int(b[-1])
             return sum
+
+        # intToBInary
         def i2b(i):
             if i == 0:
                 return '0'
@@ -39,4 +44,5 @@ class Solution(object):
                 i /= 2
             r.reverse()
             return ''.join(r)
+
         return i2b(b2i(a) + b2i(b))
