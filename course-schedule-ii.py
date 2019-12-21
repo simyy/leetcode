@@ -40,6 +40,9 @@ Analysis:
 7. Second: loop every node in queue, find the next node of node in queue,
             and move the node to queue which not depend on the node out of queue.
 8. If loop is end, check the number of node is right or not.
+
+
+Another method: User couse-schedule method.
 """
 
 from Queue import Queue
