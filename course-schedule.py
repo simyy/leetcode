@@ -89,3 +89,46 @@ if __name__ == '__main__':
                             [24,31],[68,23],[86,52],[79,49],[32,25],[90,18],[16,57],[60,74],[81,73],[26,10],[54,26],[57,58],
                             [46,47],[66,54],[52,25],[62,91],[6,72],[81,72],[50,35],[59,87],[21,3],[4,92],[70,12],[48,4],[9,23]]));
 
+
+"""
+This is a recursion method.
+Timout out.
+
+    def canFinish(self, numCourses, prerequisites):
+        if numCourses == 0:
+            return True
+        if len(prerequisites) == 0:
+            return True
+        courseslist = [i for i in range(numCourses)]
+        return self.recursion(courseslist, prerequisites)
+
+    def recursion(self, coursesList, prerequisites):
+        # coursesListStr = ",".join([ str(x) for x in coursesList])
+        # if coursesListStr in self.store:
+        #     return False
+        if len(coursesList) == 0:
+            return True
+        if len(prerequisites) == 0:
+            return True
+        rootList = self.rootNode(coursesList, prerequisites)
+        if len(rootList) == 0:
+            # self.store.add(coursesListStr)
+            return False
+        for root in rootList:
+            if self.recursion(
+                self.rebuildCourses(root, coursesList), 
+                self.rebuildPrerequisites(root, prerequisites)):
+                return True
+        # self.store.add(coursesListStr)
+        return False
+
+    def rootNode(self, coursesList, prerequisites):
+        unRootSet = [s for s, t in prerequisites]
+        return [x for x in coursesList if x not in unRootSet]
+
+    def rebuildCourses(self, root, inputList):
+        return [x for x in inputList if root != x]
+
+    def rebuildPrerequisites(self, root, prerequisites):
+        return [[s, t] for s, t in prerequisites if t != root]
+"""
