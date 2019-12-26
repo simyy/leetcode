@@ -1,12 +1,11 @@
-#!/usr/bin/env python
 # encoding: utf-8
 
-“”“
+"""
 杨氏矩阵查找元素方法
 1. 遍历
 2. 二分法遍历
 3. 线性搜索利用有序关系，右上角的特性：大于左侧并小于下侧
-”“”
+"""
 
 
 class Point:
@@ -80,8 +79,12 @@ def find_loop(data, point1, point2, x):
 
 
 def find(data, x):
-    '''利用二分法在有序矩阵中查找数字
-    '''
+    """
+    利用二分法在有序矩阵中查找数字
+    :param data:
+    :param x:
+    :return:
+    """
     # 如果输入为空，则查找失败
     if not data or not data[0]:
         return False
