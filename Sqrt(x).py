@@ -1,11 +1,11 @@
-/*
+"""
 Implement int sqrt(int x).
 Compute and return the square root of x.
 
 Analysis:
 x^2 = y, then x = sqrt(y)
 if a*a < y, the number less then a must not be comfortable, then if (a+1 * a+1) > y, the only comfortable is a.
-/*
+"""
 
 class Solution:
     # @param {integer} x
