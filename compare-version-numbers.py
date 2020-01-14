@@ -1,4 +1,8 @@
+# -*- coding: utf-8 -*-
+
 """
+https://leetcode.com/problems/compare-version-numbers/
+
 Compare two version numbers version1 and version2.
 If version1 > version2 return 1, if version1 < version2 return -1, otherwise return 0.
 
@@ -18,18 +22,22 @@ but must be be careful to compare 1.0 to 1, the last zero is no useful
 #!/usr/bin/env python
 # encoding:utf-8
 
-class Solution:
-    # @param {string} version1
-    # @param {string} version2
-    # @return {integer}
+class Solution(object):
     def compareVersion(self, version1, version2):
+        """
+        :type version1: str
+        :type version2: str
+        :rtype: int
+        """
         list1 = version1.split(".")
         list2 = version2.split(".")
+        # Compare with version[i] and version[j]
         for i in range(min(len(list1), len(list2))):
             if int(list1[i]) > int(list2[i]):
                 return 1 
             elif int(list1[i]) < int(list2[i]):
                 return -1
+        # Compare length and filter the 0.0.0
         if len(list1) > len(list2) and filter(lambda x:int(x)!=0, list1[len(list2):]):
             return 1 
         elif len(list1) < len(list2) and filter(lambda x:int(x)!=0, list2[len(list1):]):
