@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
 """
+[Link]
 https://leetcode.com/problems/3sum/
 
+[Question]
 Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? \
 Find all unique triplets in the array which gives the sum of zero.
 
@@ -17,10 +19,17 @@ A solution set is:
   [-1, -1, 2]
 ]
 
-Analysis:
+[Analysis]
 1. This is a array pointer problem.
 2. 3sum  = num + 2sum
 3. 2sum can be use left and right pointer traverse method.
+
+[Category]
+N-Sum
+
+
+[Method]
+4-Sum https://leetcode.com/problems/4sum/discuss/8601/Share-my-AC-O(n2)-python-solution.
 """
 
 class Solution(object):
